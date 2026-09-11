@@ -1,6 +1,6 @@
-# 
+# MLOps
 
-
+The practices and tooling that take a machine-learning model from a notebook to reliable production: experiment tracking, model registries, feature stores, CI/CD for ML, serving, and drift monitoring. Builds on this library's docker-and-containers, kubernetes-fundamentals, harness, opentelemetry, and testing-in-software-engineering courses for the general infra/CI/testing/observability mechanics this course specializes for ML — see each for the foundation.
 
 Part of the [Yaaddi](https://github.com/yaaddi-courses) course catalog — a
 spaced-repetition flashcard course, ready to build and validate with the
