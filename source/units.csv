@@ -23,3 +23,4 @@ id,title,description,min_level,section,image,section_image
 22,Testing ML Systems,"Data validation and model behavioral tests, beyond a normal unit-test suite.",6,Monitoring & Governance,unit22.png,
 23,Model Governance and Model Cards,"Documentation, approval workflows, and fairness checks before shipping.",6,Monitoring & Governance,unit23.png,
 24,LLMOps: What Changes for Large Language Models,"How prompt versioning, RAG evaluation, and token cost change everything taught so far.",6,Monitoring & Governance,unit24.png,
+25,Recap: Key Terms,Quick matching practice that revisits the key terms from earlier decks.,1,Review,unit25.png,
