@@ -4,7 +4,7 @@
   "description": "The practices and tooling that take a machine-learning model from a notebook to reliable production: experiment tracking, model registries, feature stores, CI/CD for ML, serving, and drift monitoring. Builds on this library's docker-and-containers, kubernetes-fundamentals, harness, opentelemetry, and testing-in-software-engineering courses for the general infra/CI/testing/observability mechanics this course specializes for ML — see each for the foundation.",
   "image": "cover.png",
   "file": "mlops.zip",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "tags": [
     "mlops",
     "machine-learning",
@@ -22,6 +22,16 @@
       "version": "1.0.1",
       "date": "2026-09-24",
       "notes": "Wrapped code, commands and file names in backticks so they render as code (1 card(s))."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-30",
+      "notes": "Code mentioned inside question and answer text (commands, function calls, keywords such as for/None/True, file names, flags) is now marked as code, so it shows in the code font and colors."
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-09-30",
+      "notes": "Fixed cards the app could not import (a fill-in-the-blank question with no blank, a matching pair with no partner), so the course now installs."
     }
   ],
   "toc": [
