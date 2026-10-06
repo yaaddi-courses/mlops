@@ -345,3 +345,46 @@ print('ALERT' if psi_score > 0.2 else 'OK')
 490,25,match_pairs,exercise,487,Connect the terms to what they mean.,invariance test↔Same answer expected|directional test↔Expected direction|model card↔Model documentation|approval workflow↔Human sign-off,,,,Each term is paired with its plain-language meaning.
 491,25,match_pairs,exercise,487,Match the terms and meanings.,approval workflow↔Human sign-off|fairness check↔Compare subgroups|LLM-as-judge↔Model grades model|token cost monitoring↔Track LLM spend,,,,Each term is paired with its plain-language meaning.
 492,25,true_false,exercise,487,batch inference means real-time answers.,,false,,,No: batch inference means predict stored data.
+493,1,multiple_choice,exam,,MLOps closes the gap between notebook and:,Production|Classroom|Spreadsheet,0,,,A model that scores well in a notebook can still fail under real traffic.
+494,1,true_false,exam,,A good notebook score guarantees success in production.,,false,,,"Production needs reliability, monitoring and more."
+495,2,multiple_choice,exam,,The ML lifecycle is a continuous:,Line|Archive|Loop,2,,,Models are retrained as data changes.
+496,3,multiple_choice,exam,,"Reproducing a result needs code, data and:",Environment|Personal opinion|Pure luck,0,,,An updated library can change results.
+497,4,multiple_choice,exam,,Data versioning lets you retrieve a past:,Budget|Dataset|Meeting,1,,,Tools like DVC snapshot data the way git snapshots code.
+498,5,multiple_choice,exam,,An experiment tracker logs parameters and:,Passwords|Invoices|Metrics,2,,,It replaces files named final_REALFINAL.
+499,6,multiple_choice,exam,,MLflow Tracking records data per:,Run|Server|Team,0,,,It logs parameters and metrics for each training run.
+500,7,multiple_choice,exam,,A W&B sweep automates hyperparameter:,Billing|Search|Storage,1,,,It launches many runs with different settings.
+501,8,multiple_choice,exam,,A model moves from Staging to:,Notebook|Backup copy|Production,2,,,Staging is for testing; Production serves real traffic.
+502,9,multiple_choice,exam,,An online feature store serves:,Real-time predictions|Weekly reports|Old backups,0,,,Models pull features in milliseconds.
+503,10,multiple_choice,exam,,A Feast FeatureView groups related:,Branches|Features|Servers,1,,,For example average rating and trips today.
+504,11,multiple_choice,exam,,A DAG must never contain:,Branches|Sequences|Cycles,2,,,Each step depends on earlier ones.
+505,11,true_false,exam,,A DAG can loop back to an earlier step.,,false,,,"It is acyclic, with no loops."
+506,12,multiple_choice,exam,,Each Kubeflow Pipelines step runs in a:,Browser|Container|Spreadsheet,1,,,Components package their own code and dependencies.
+507,13,multiple_choice,exam,,An orchestrator can auto-retry a failed:,Dataset|Model|Task,2,,,"It reruns only that task, not the whole pipeline."
+508,13,multiple_choice,exam,,Prefect flows are described as more:,Pythonic|Complicated|Graphical,0,,,They feel like plain Python.
+509,14,multiple_choice,exam,,A data quality gate can block a:,Backup|Merge|Meeting,1,,,Checks like schema validation can fail the build.
+510,14,multiple_choice,exam,,A model quality gate compares against a:,Deadline|Rumour|Baseline,2,,,A worse model fails CI.
+511,15,multiple_choice,exam,,"Besides a schedule, retraining can be triggered by:",Drift|Weather|Holidays,0,,,A drift alert can start retraining.
+512,15,multiple_choice,exam,,The champion model is the one in:,Code review|Production|Training runs,1,,,The retrained challenger must beat it to replace it.
+513,16,multiple_choice,exam,,A model artifact includes the trained:,Invoices|Tickets|Weights,2,,,It also carries metadata like the framework version.
+514,16,true_false,exam,,Pinning library versions avoids a training and serving mismatch.,,true,,,Different versions can change predictions.
+515,16,multiple_choice,exam,,ONNX lets a model run across:,Clouds only|Frameworks|Calendars,1,,,It is a shared model file format.
+516,17,multiple_choice,exam,,Batch inference scores data:,Per request|Never|Scheduled,2,,,For example last night's orders each morning.
+517,17,multiple_choice,exam,,Online inference answers:,Live requests|Archived files|Static dashboards,0,,,It responds within milliseconds.
+518,17,multiple_choice,exam,,Streaming inference processes an:,Email list|Event stream|Image folder,1,,,Predictions run as new events arrive.
+519,18,multiple_choice,exam,,TorchServe is built for:,Database tables|Web pages|PyTorch models,2,,,It is PyTorch's counterpart to TensorFlow Serving.
+520,18,multiple_choice,exam,,Triton can host models from:,Many frameworks|Single framework|One vendor,0,,,"It serves TensorFlow, PyTorch and ONNX models side by side."
+521,19,multiple_choice,exam,,A canary deployment starts with a small:,Team members|Traffic slice|Dataset sample,1,,,Maybe 5% of users get the new version.
+522,19,multiple_choice,exam,,A shadow model's output is:,Shown to users|Billed|Discarded,2,,,It runs on live requests but its predictions are ignored.
+523,20,multiple_choice,exam,,Output monitoring tracks the shape of:,Predictions|Server logs|Billing invoices,0,,,It also watches confidence scores.
+524,20,multiple_choice,exam,,A confidence score is the model's:,Latency|Certainty|Price,1,,,A spike in low-confidence predictions can signal trouble.
+525,21,multiple_choice,exam,,Data drift means the input data has:,Been deleted|Been encrypted|Changed shape,2,,,For example applicants are now much younger.
+526,21,multiple_choice,exam,,Concept drift changes the input and output:,Relationship|Background colour|File length,0,,,Old patterns stop predicting new behavior.
+527,21,multiple_choice,exam,,PSI is a score for detecting:,Cost|Drift|Latency,1,,,It compares today's feature distribution with the training one.
+528,22,multiple_choice,exam,,Data validation tests check incoming:,Code formatting|Server loads|Data quality,2,,,They go beyond a normal unit test.
+529,22,multiple_choice,exam,,An invariance test expects output to:,Stay stable|Double|Vanish,0,,,Changing something irrelevant should not change the prediction.
+530,23,multiple_choice,exam,,A model card documents a model's intended:,Colour|Use|Price,1,,,It also lists training data and limitations.
+531,23,multiple_choice,exam,,An approval workflow gives a model human:,Training|Capacity|Sign-off,2,,,High-stakes models often need a reviewer.
+532,23,multiple_choice,exam,,A fairness check compares performance across:,Groups|Servers|Years,0,,,For example approval rates across demographic groups.
+533,24,multiple_choice,exam,,Prompt versioning tracks prompt:,Authors only|Changes|Prices,1,,,It applies the registry idea to prompts.
+534,24,multiple_choice,exam,,RAG evaluation checks answer:,Spelling mistakes|Response length|Grounding,2,,,The model should rely on retrieved documents.
+535,24,multiple_choice,exam,,Token cost monitoring watches request:,Spend|Speed|Style,0,,,LLM calls are billed by tokens in and out.
