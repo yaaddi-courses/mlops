@@ -89,20 +89,20 @@ YAML,"A human-readable text format for configuration files, based on indentation
 SQL,Structured Query Language: the standard language for querying and changing data in relational databases.,https://en.wikipedia.org/wiki/SQL,250
 MP3,"A compressed audio file format, not a machine-learning model format.",https://en.wikipedia.org/wiki/MP3,317
 USB,Universal Serial Bus: the standard cable connection for plugging devices into a computer.,https://en.wikipedia.org/wiki/USB,340
-hyperparameters,"Settings chosen before training, such as learning rate, that control how a model learns.",https://en.wikipedia.org/wiki/Hyperparameter_(machine_learning),121
+hyperparameters,"Settings chosen before training, such as learning rate, that control how a model learns.",https://developers.google.com/machine-learning/glossary#hyperparameter,121
 runs,"Single tracked executions of a training script, with their settings and results recorded.",https://mlflow.org/docs/latest/tracking.html,27
 artifacts,"Files produced by a run, such as trained models or plots, that a tracker stores.",https://mlflow.org/docs/latest/tracking.html,295
 sweeps,"Automated searches that try many hyperparameter combinations, as in Weights and Biases.",https://docs.wandb.ai/guides/sweeps/,122
 model registries,Central catalogues that store model versions and track their lifecycle stage.,https://mlflow.org/docs/latest/model-registry.html,129
 lifecycle stages,"The steps a registered model moves through, such as staging, production and archived.",https://mlflow.org/docs/latest/model-registry.html,130
 feature stores,Systems that store and serve the input features models use in training and in production.,https://en.wikipedia.org/wiki/Feature_store,138
-offline stores,The part of a feature store that holds historical feature data used to train models.,https://en.wikipedia.org/wiki/Feature_store,138
+offline stores,The part of a feature store that holds historical feature data used to train models.,https://docs.feast.dev/getting-started/components/offline-store,138
 components,"The reusable pipeline steps in Kubeflow, each running in its own container.",https://www.kubeflow.org/docs/components/pipelines/,164
 quality gates,Automatic checks that must pass before data or code is allowed to move on.,https://en.wikipedia.org/wiki/Quality_gate,260
-canary deployments,Releases that send a small share of traffic to the new version first.,https://en.wikipedia.org/wiki/Feature_toggle#Canary_release,361
+canary deployments,Releases that send a small share of traffic to the new version first.,https://en.wikipedia.org/wiki/Feature_toggle,361
 confidence scores,Numbers a model outputs to show how sure it is about a prediction.,https://en.wikipedia.org/wiki/Probabilistic_classification,383
 invariance tests,Tests that change details that should not matter and expect the model's prediction to stay the same.,https://en.wikipedia.org/wiki/Metamorphic_testing,425
 directional tests,Tests that change an input in a known direction and expect the prediction to move that way.,https://en.wikipedia.org/wiki/Metamorphic_testing,426
-model cards,"Short documents describing what a model is for, how it was tested and its limits.",https://modelcards.withgoogle.com/about,432
+model cards,"Short documents describing what a model is for, how it was tested and its limits.",https://huggingface.co/docs/hub/model-cards,432
 approval workflows,Review steps in which people must sign off before a model can be deployed.,https://en.wikipedia.org/wiki/Workflow,440
 fairness checks,Tests that compare a model's results across groups of people to look for bias.,https://en.wikipedia.org/wiki/Fairness_(machine_learning),446
