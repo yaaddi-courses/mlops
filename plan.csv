@@ -1,0 +1,49 @@
+section,deck,pack,level,keywords,terms,kind,main_card_id
+Foundations,What MLOps Actually Solves,What gap does MLOps close?,1,MLOps,MLOps,teach,2
+Foundations,The ML Lifecycle Loop,Order the ML lifecycle loop steps.,1,ML lifecycle,ML lifecycle,teach,10
+Foundations,Reproducibility Fundamentals,What must you fix to reproduce an ML result?,1,reproducibility|random seed,reproducibility|random seed,teach,19
+Foundations,Data Versioning,What does data versioning let you retrieve later?,1,data versioning|DVC|run,data versioning|DVC|run,teach,28
+Tracking & Registry,Experiment Tracking Fundamentals,What does an experiment tracker log per run?,1,What does an experiment tracker log per run?,,teach,37
+Tracking & Registry,MLflow Tracking,What does MLflow Tracking record per run?,1,MLflow|MLflow Tracking,MLflow|MLflow Tracking,teach,46
+Tracking & Registry,Weights & Biases,What does a W&B sweep automate?,1,hyperparameter|Weights & Biases|sweep,hyperparameter|Weights & Biases|sweep,teach,122
+Tracking & Registry,Model Registry & Lifecycle Stages,Pick model registry lifecycle stages.,1,model registry|lifecycle stage|model governance,model registry|lifecycle stage|model governance,teach,130
+Data & Features,Feature Store Fundamentals,What does an online feature store serve?,1,feature store|offline store|online store|training-serving skew,feature store|offline store|online store|training-serving skew,teach,138
+Data & Features,Feast in Practice,What does a Feast FeatureView group?,1,Feast|FeatureView,Feast|FeatureView,teach,147
+Data & Features,Pipeline Orchestration Fundamentals,What must a DAG never contain?,1,DAG,DAG,teach,155
+Pipelines & CI,Kubeflow Pipelines,How does each Kubeflow pipeline step run?,1,Kubeflow Pipelines|component,Kubeflow Pipelines|component,teach,164
+Pipelines & CI,Airflow and Prefect for ML,DAG stands for directed ___ graph.,2,Airflow,Airflow,teach,242
+Pipelines & CI,Airflow and Prefect for ML,What makes Prefect more Pythonic than Airflow?,2,Prefect,Prefect,teach,248
+Pipelines & CI,Airflow and Prefect for ML,What happens when a task fails?,2,What happens when a task fails?,,teach,254
+Pipelines & CI,CI for ML: Data and Model Quality Gates,What can a data quality gate block?,2,quality gate,quality gate,teach,260
+Pipelines & CI,CI for ML: Data and Model Quality Gates,What does a model quality gate compare?,2,What does a model quality gate compare?,,teach,266
+Pipelines & CI,CI for ML: Data and Model Quality Gates,Complete: fail the build on low accuracy.,2,data validation,data validation,teach,272
+Pipelines & CI,Continuous Training and Retraining Triggers,Complete: cron for every Sunday midnight.,2,cron,cron,teach,278
+Pipelines & CI,Continuous Training and Retraining Triggers,What can trigger retraining besides a schedule?,2,data drift,data drift,teach,284
+Pipelines & CI,Continuous Training and Retraining Triggers,What is a 'champion' model?,2,champion/challenger,champion/challenger,teach,290
+Serving & Rollout,Packaging a Model for Deployment,What is a model artifact?,2,artifact|model artifact,artifact|model artifact,teach,296
+Serving & Rollout,Packaging a Model for Deployment,What does inference code do?,2,inference|inference code,inference|inference code,teach,302
+Serving & Rollout,Packaging a Model for Deployment,Why pin exact library versions?,2,Why pin exact library versions?,,teach,308
+Serving & Rollout,Packaging a Model for Deployment,What problem does a format like ONNX solve?,3,ONNX,ONNX,teach,314
+Serving & Rollout,Model Serving Patterns,What is batch inference?,3,batch inference,batch inference,teach,320
+Serving & Rollout,Model Serving Patterns,What defines online inference?,3,online inference,online inference,teach,326
+Serving & Rollout,Model Serving Patterns,What does streaming inference process?,3,streaming inference,streaming inference,teach,332
+Serving & Rollout,Model Serving Tools,What is TensorFlow Serving for?,3,model server|TensorFlow Serving,model server|TensorFlow Serving,teach,338
+Serving & Rollout,Model Serving Tools,What is TorchServe built for?,3,TorchServe,TorchServe,teach,344
+Serving & Rollout,Model Serving Tools,What makes Triton different from TorchServe?,3,Triton Inference Server,Triton Inference Server,teach,350
+Serving & Rollout,Safe Rollouts: Canary and Shadow Deployment,What is a canary deployment?,3,canary deployment|rollback,canary deployment|rollback,teach,362
+Serving & Rollout,Safe Rollouts: Canary and Shadow Deployment,What happens to a shadow model's output?,3,shadow deployment,shadow deployment,teach,370
+Monitoring & Governance,Monitoring ML Systems in Production,What does output monitoring track?,3,output distribution monitoring,output distribution monitoring,teach,377
+Monitoring & Governance,Monitoring ML Systems in Production,What is a confidence score?,3,confidence score|ground truth,confidence score|ground truth,teach,384
+Monitoring & Governance,Data Drift and Concept Drift,What is data drift?,3,What is data drift?,,teach,391
+Monitoring & Governance,Data Drift and Concept Drift,What is concept drift?,4,concept drift,concept drift,teach,398
+Monitoring & Governance,Data Drift and Concept Drift,How is drift usually detected?,4,How is drift usually detected?,,teach,405
+Monitoring & Governance,Testing ML Systems,What do data validation tests check?,4,data validation test,data validation test,teach,419
+Monitoring & Governance,Testing ML Systems,What does an invariance test check?,4,invariance test|directional test,invariance test|directional test,teach,426
+Monitoring & Governance,Model Governance and Model Cards,What is a model card?,4,model card,model card,teach,433
+Monitoring & Governance,Model Governance and Model Cards,What is an approval workflow for?,4,approval workflow,approval workflow,teach,440
+Monitoring & Governance,Model Governance and Model Cards,What does a fairness check compare?,4,fairness check,fairness check,teach,447
+Monitoring & Governance,LLMOps: What Changes for Large Language Models,What is prompt versioning?,4,prompt versioning,prompt versioning,teach,454
+Monitoring & Governance,LLMOps: What Changes for Large Language Models,What does RAG evaluation check?,4,LLM-as-judge,LLM-as-judge,teach,461
+Monitoring & Governance,LLMOps: What Changes for Large Language Models,What is token cost monitoring?,4,token cost monitoring,token cost monitoring,teach,468
+Review,Recap: Key Terms,Recap pack 47,4,MLOps|ML lifecycle|data versioning|DVC|MLflow|MLflow Tracking|hyperparameter|Weights & Biases|sweep|lifecycle stage|feature store|offline store|online store|training-serving skew|Feast|FeatureView|Prefect|cron|champion/challenger|artifact|model artifact|inference code|batch inference,,review,479
+Review,Recap: Key Terms,Recap pack 48,4,batch inference|online inference|streaming inference|model server|Triton Inference Server|rollback|shadow deployment|output distribution monitoring|confidence score|ground truth|continuous training|data validation test|invariance test|directional test|model card|approval workflow|fairness check|LLM-as-judge|token cost monitoring,,review,487
