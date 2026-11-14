@@ -35,9 +35,9 @@ That is a signal for the analysts. The 4,800 extra flags might be real fraud or 
 
 **Step 2: canary.** After the review, version 2 receives 5% of traffic. The team watches the error rate and the flag rate. After a day all is stable, so the share goes 5%, 25%, 50%, 100% over a week.
 
-**Step 3: rollback rule.** If the share of low-confidence predictions (below 0.6) rises from the usual 4% to above 10%, or the service errors exceed 2%, traffic returns to version 1 automatically.
+**Step 3: rollback rule.** During the canary and the first week, if the share of low-confidence predictions (below 0.6) rises from the usual 4% to above 10%, or the service errors exceed 2%, traffic returns to version 1 automatically.
 
-Now the monitoring. Three months after the release, this is what the team sees:
+Now the monitoring. Three months after the release, the automatic rollback rule no longer applies, so a rising reading means the team investigates by hand. This is what the team sees:
 
 | Signal | Needs ground truth? | Delay | Reading |
 |---|---|---|---|

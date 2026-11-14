@@ -4,7 +4,7 @@
   "description": "The practices and tooling that take a machine-learning model from a notebook to reliable production: experiment tracking, model registries, feature stores, CI/CD for ML, serving, and drift monitoring. Builds on this library's docker-and-containers, kubernetes-fundamentals, harness, opentelemetry, and testing-in-software-engineering courses for the general infra/CI/testing/observability mechanics this course specializes for ML — see each for the foundation.",
   "image": "cover.png",
   "file": "mlops.zip",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "tags": [
     "mlops",
     "machine-learning",
@@ -47,6 +47,11 @@
       "version": "1.1.4",
       "date": "2026-10-29",
       "notes": "Wording fixes so cards do not use terms before they are taught and practice cards mention their topic."
+    },
+    {
+      "version": "1.1.5",
+      "date": "2026-11-14",
+      "notes": "Haiku review fixes: corrected factual errors and cards that did not match what their lesson teaches."
     }
   ],
   "toc": [
